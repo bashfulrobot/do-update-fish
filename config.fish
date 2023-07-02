@@ -8,7 +8,7 @@ function do-update
         sudo apt autoclean
         sudo apt clean
         sudo apt install -f -y
-        echo "System update and maintenance complete."
+        echo "Host system update and maintenance complete."
 
         # Check if Docker is installed
         if command -v docker >/dev/null 2>&1
